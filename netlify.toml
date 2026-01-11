@@ -1,0 +1,15 @@
+[build]
+  # 构建命令
+  command = "npm install && npm run build"
+  # 发布目录 (Vite 默认输出到 dist)
+  publish = "dist"
+
+# SPA 路由重定向，确保所有路由都返回 index.html
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# 设置环境变量（如果需要的话）
+[build.environment]
+  NODE_VERSION = "18"
