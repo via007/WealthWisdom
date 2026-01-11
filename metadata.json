@@ -1,0 +1,7 @@
+{
+  "name": "WealthWisdom AI - 智能记账助手",
+  "description": "一个功能丰富、界面优雅的 AI 驱动记账系统。支持语音识别、图片识别、智能消费分析及精美的可视化图表。",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
